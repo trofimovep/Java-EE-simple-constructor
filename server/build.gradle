@@ -1,0 +1,20 @@
+plugins {
+    id 'java'
+}
+
+group '0'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    implementation group: 'com.squareup.okhttp3', name: 'logging-interceptor', version: '3.10.0'
+    implementation group: 'javax.ws.rs', name: 'javax.ws.rs-api', version: '2.1'
+    implementation group: 'javax.enterprise', name: 'cdi-api', version: '1.2'
+    implementation group: 'org.vibur', name: 'vibur-dbcp', version: '22.2'
+}
