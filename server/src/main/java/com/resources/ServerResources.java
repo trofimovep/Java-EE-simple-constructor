@@ -20,6 +20,7 @@ public class ServerResources {
     @Path("message")
     @GET
     public Response changeMessages(@QueryParam("message") String message) {
+
         return Response.ok(service.changeMessages(message)).build();
     }
 

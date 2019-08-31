@@ -6,7 +6,7 @@ import retrofit2.http.Query;
 
 public interface MainApi {
 
-    @GET("server/message")
-    Call<String> changeMessages(@Query("cleintMessage") String cleintMessage);
+    @GET("message")
+    Call<String> changeMessages(@Query("message") String message);
 
 }

@@ -13,16 +13,15 @@ public class App {
         System.setProperty("server", "http://127.0.0.1:8080/");
         System.setProperty("server.uri", System.getProperty("server") + "server/");
 
-
         MessageChanger messageChanger = new MessageChanger();
-        try {
-            messageChanger.changeMessages("Hi, I am client!");
-        } catch (ExecutionException e) {
-            e.printStackTrace();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
 
+//        String serverMess = messageChanger.changeMessages("Hi, I am client!");
+        String serverMess = messageChanger.changeMessages(" хуй 11  22   kk ll oo3 ;dlfmfdvl3");
+
+        System.out.println("=========================");
+        System.out.println("+++++++++ Success !+++++++++");
+        System.out.println(serverMess);
+        System.out.println("=========================");
     }
 
 }

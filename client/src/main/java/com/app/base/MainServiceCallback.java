@@ -1,7 +1,9 @@
 package com.app.base;
 
+import com.app.base.ErrorMessage;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.plugins.main.services.ServiceException;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
@@ -29,20 +31,19 @@ public class MainServiceCallback<T> implements Callback<T> {
 
             try {
 
-                //System.out.println(response.errorBody().string());
-
                 ErrorMessage message = gson.fromJson(response.errorBody().string(), ErrorMessage.class);
 
-                future.completeExceptionally(new MainServiceException(message.getMessage()));
+                future.completeExceptionally(new ServiceException(message.getMessage()));
 
             } catch (Exception e) {
 
                 e.printStackTrace();
 
                 future.completeExceptionally(
-                        new MainServiceException("Неизвестная ошибка при обращении к серверу"));
+                        new ServiceException("Unknown error accessing server"));
             }
         }
+
     }
 
     @Override
@@ -50,7 +51,7 @@ public class MainServiceCallback<T> implements Callback<T> {
 
         t.printStackTrace();
 
-        future.completeExceptionally(new MainServiceException("Сервер не доступен"));
+        future.completeExceptionally(new ServiceException("Server is not available"));
 
     }
 }

@@ -16,6 +16,10 @@ public class Repository {
     DatabaseService databaseService;
 
     public String changeMessage(String message) {
-        return "Ok, I got ur message, and i am the server!";
+
+        String ans = "Ok, I got ur message, and i am the server!\n"+
+         " and ur message is: \n" + message;
+
+        return ans;
     }
 }

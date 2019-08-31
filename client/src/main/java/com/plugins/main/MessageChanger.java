@@ -11,8 +11,15 @@ public class MessageChanger {
         service = new MainService();
     }
 
-    public String changeMessages(String message) throws ExecutionException, InterruptedException {
-        String serverMessage = service.changeMessages(message).toCompletableFuture().get();
+    public String changeMessages(String message) {
+        String serverMessage = null;
+        try {
+            serverMessage = service.changeMessages(message).toCompletableFuture().get();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        } catch (ExecutionException e) {
+            e.printStackTrace();
+        }
         return serverMessage;
     }
 }
