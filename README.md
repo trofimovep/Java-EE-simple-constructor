@@ -1,7 +1,7 @@
 # Java-EE-simple-constructor
 Base of project, for quick creation. It consists from client and server parts.
 
-Client sends `string` message and `long` id, and get the `string` and `object`as answers.
+Client sends `string` message and `long` id, and gets the `string` and `object`as answers.
 
 String message is just a string:
 ```java
