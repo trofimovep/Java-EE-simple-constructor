@@ -2,28 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="248b2461-8d99-44fd-bfa4-b341d3434296" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/app/base/config/ToStringConverterFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/plugins/main/ExampleDtoGetter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/plugins/main/dto/ExampleDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../server/src/main/java/com/dto/ExampleDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/app/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/app/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/plugins/main/services/MainApi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/plugins/main/services/MainApi.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/plugins/main/services/MainService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/plugins/main/services/MainService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/app/base/MainServiceCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/app/base/MainServiceCallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/plugins/main/MessageChanger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plugins/main/MessageChanger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/plugins/main/services/MainApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plugins/main/services/MainApi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/plugins/main/services/MainService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/plugins/main/services/MainService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/plugins/main/services/ServiceCallback.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../server/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../server/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../server/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../server/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../server/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../server/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../server/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../server/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../server/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../server/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../server/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../server/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../server/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../server/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../server/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../server/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../server/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/build/classes/java/main/com/repo/Repository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../server/build/classes/java/main/com/repo/Repository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/build/classes/java/main/com/resources/ServerResources.class" beforeDir="false" afterPath="$PROJECT_DIR$/../server/build/classes/java/main/com/resources/ServerResources.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/build/classes/java/main/com/service/ServerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../server/build/classes/java/main/com/service/ServerService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/build/libs/server-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../server/build/libs/server-1.0-SNAPSHOT.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/repo/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/repo/Repository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/resources/ServerResources.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/resources/ServerResources.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../server/src/main/java/com/service/ServerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../server/src/main/java/com/service/ServerService.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -133,6 +137,8 @@
       <workItem from="1567204981249" duration="18000" />
       <workItem from="1567205733749" duration="2379000" />
       <workItem from="1567236004309" duration="5475000" />
+      <workItem from="1567270200026" duration="95000" />
+      <workItem from="1567270328120" duration="2234000" />
     </task>
     <servers />
   </component>
@@ -155,26 +161,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/plugins/main/MessageChanger.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/plugins/main/MessageChanger.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/plugins/main/services/MainService.java</url>
-          <line>55</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/plugins/main/services/MainService.java</url>
-          <line>56</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.2/b2da9f8444128651758719856de579eacff7f387/gson-2.8.2-sources.jar!/com/google/gson/stream/JsonReader.java</url>
           <line>1567</line>

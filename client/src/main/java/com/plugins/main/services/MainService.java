@@ -5,6 +5,7 @@ import com.app.base.config.ToStringConverterFactory;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.plugins.main.dto.ExampleDto;
 import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.RequestBody;
@@ -56,6 +57,12 @@ public class MainService {
     public CompletionStage<String> changeMessages(String message) {
         CompletableFuture<String> result = new CompletableFuture<>();
         api.changeMessages(message).enqueue(new MainServiceCallback<>(result));
+        return result;
+    }
+
+    public CompletionStage<ExampleDto> getExampleDto(long id) {
+        CompletableFuture<ExampleDto> result = new CompletableFuture<>();
+        api.getExampleDto(id).enqueue(new MainServiceCallback<>(result));
         return result;
     }
 

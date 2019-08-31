@@ -24,4 +24,11 @@ public class ServerResources {
         return Response.ok(service.changeMessages(message)).build();
     }
 
+
+    @Path("dto")
+    @GET
+    public Response changeMessages(@QueryParam("id") long id) {
+        return Response.ok(service.getExanpleDto(id)).build();
+    }
+
 }
